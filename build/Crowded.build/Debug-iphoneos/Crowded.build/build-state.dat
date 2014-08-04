@@ -1,0 +1,1563 @@
+TCrowded
+v6
+r1
+cCheck dependencies
+cCpResource /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/Crowded.app/ResourceRules.plist
+cProcessPCH /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch.pch Crowded/Crowded-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/CrowdedData.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/CrowdedData.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/MyScene.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/MyScene.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Enemy.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Enemy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Menu.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Menu.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/GameOver.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/GameOver.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/ViewController.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/AppDelegate.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Help.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Help.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/main.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded normal armv7
+cCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/crowdedIcon@2x.png Crowded/crowdedIcon@2x.png
+cCpResource GAMECUBEN\ DualSet.ttf build/Debug-iphoneos/Crowded.app/GAMECUBEN\ DualSet.ttf
+cCopyStringsFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/en.lproj/InfoPlist.strings Crowded/en.lproj/InfoPlist.strings
+cCpResource Crowded/CrowdedSong.m4a build/Debug-iphoneos/Crowded.app/CrowdedSong.m4a
+cCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/CrowdedSplash.png Crowded/CrowdedSplash.png
+cCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/CrowdedSplash@2x.png Crowded/CrowdedSplash@2x.png
+cCompileStoryboard /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Main.storyboard
+cCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Spaceship.png Crowded/Spaceship.png
+cCpResource Crowded/Basica\ solo\ letras\ para\ dafont\ lista__.ttf build/Debug-iphoneos/Crowded.app/Basica\ solo\ letras\ para\ dafont\ lista__.ttf
+cCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/crowdedIcon.png Crowded/crowdedIcon.png
+cCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/player.png Crowded/player.png
+cCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/endParticle.png Crowded/endParticle.png
+cCpResource MyParticle.sks build/Debug-iphoneos/Crowded.app/MyParticle.sks
+cCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/spark.png spark.png
+cCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded1024.png Crowded/Crowded1024.png
+cCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/enemy0.png Crowded/enemy0.png
+cCompileAssetCatalog /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Images.xcassets
+cProcessInfoPlistFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Info.plist /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Crowded-Info.plist
+cGenerateDSYMFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app.dSYM /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded
+cProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/3D50943B-B6AC-4793-9EF0-ACB2DF7389C9.mobileprovision /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision
+cTouch /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app
+cProcessProductPackaging /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.xcent
+cCodeSign /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000538961DB000000000010D2D0
+t1401512411
+s1102544
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c00000000538961DB000000000001B5E0
+t1401512411
+s112096
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000538961DB0000000000033D58
+t1401512411
+s212312
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000538961DB00000000000594D8
+t1401512411
+s365784
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000538961DB0000000000019280
+t1401512411
+s103040
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000538961DB00000000000954C0
+t1401512411
+s611520
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000538961DB0000000000059028
+t1401512411
+s364584
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000538961DB0000000000026FF0
+t1401512411
+s159728
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+c00000000538961DB00000000000194F8
+t1401512411
+s103672
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000538961DB00000000000D0440
+t1401512411
+s853056
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000538961DC00000000000336B8
+t1401512412
+s210616
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000538961DC000000000001A408
+t1401512412
+s107528
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000538961DC000000000007BAF8
+t1401512412
+s506616
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/GLKit.framework/GLKit
+c00000000538961DC000000000001A4B0
+t1401512412
+s107696
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+c00000000538961E30000000000141998
+t1401512419
+s1317272
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000538961E7000000000001BA78
+t1401512423
+s113272
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000538961E800000000000404A8
+t1401512424
+s263336
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000538961E9000000000003F0F0
+t1401512425
+s258288
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+c00000000538961E9000000000001BDD8
+t1401512425
+s114136
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000538961E9000000000010FAF8
+t1401512425
+s1112824
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000538961EB0000000000025258
+t1401512427
+s152152
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libSystem.dylib
+c00000000538961FD000000000000D608
+t1401512445
+s54792
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libextension.dylib
+c00000000538961FE000000000000E718
+t1401512446
+s59160
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libobjc.dylib
+c00000000538961FE000000000001A638
+t1401512446
+s108088
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcache.dylib
+c00000000538961FE000000000000D370
+t1401512446
+s54128
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcommonCrypto.dylib
+c00000000538961FE00000000000194B8
+t1401512446
+s103608
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcompiler_rt.dylib
+c00000000538961FE0000000000025338
+t1401512446
+s152376
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcopyfile.dylib
+c00000000538961FE000000000000D4D8
+t1401512446
+s54488
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcorecrypto.dylib
+c00000000538961FE000000000001A360
+t1401512446
+s107360
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libdispatch.dylib
+c00000000538961FE00000000000193C0
+t1401512446
+s103360
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libdyld.dylib
+c00000000538961FE000000000000D608
+t1401512446
+s54792
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libkeymgr.dylib
+c00000000538961FE0000000000008BD4
+t1401512446
+s35796
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/liblaunch.dylib
+c00000000538961FE000000000000F6A0
+t1401512446
+s63136
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libmacho.dylib
+c00000000538961FE000000000000DFE0
+t1401512446
+s57312
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libremovefile.dylib
+c00000000538961FE000000000000CED8
+t1401512446
+s52952
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_asl.dylib
+c00000000538961FE0000000000018900
+t1401512446
+s100608
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_blocks.dylib
+c00000000538961FE000000000000CD48
+t1401512446
+s52552
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_c.dylib
+c00000000538961FE0000000000034610
+t1401512446
+s214544
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_configuration.dylib
+c00000000538961FE000000000000D6F0
+t1401512446
+s55024
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_coreservices.dylib
+c00000000538961FE000000000000CD60
+t1401512446
+s52576
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_coretls.dylib
+c00000000538961FE000000000000E55C
+t1401512446
+s58716
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+c00000000538961FE000000000000E240
+t1401512446
+s57920
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_info.dylib
+c00000000538961FE000000000001C788
+t1401512446
+s116616
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_kernel.dylib
+c00000000538961FE0000000000031578
+t1401512446
+s202104
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_m.dylib
+c00000000538961FE000000000000F600
+t1401512446
+s62976
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_malloc.dylib
+c00000000538961FE000000000000ECB0
+t1401512446
+s60592
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_network.dylib
+c00000000538961FE000000000001B528
+t1401512446
+s111912
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_networkextension.dylib
+c00000000538961FE000000000000E1C8
+t1401512446
+s57800
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_notify.dylib
+c00000000538961FE000000000000EFB8
+t1401512446
+s61368
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_platform.dylib
+c00000000538961FE000000000000E848
+t1401512446
+s59464
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_pthread.dylib
+c00000000538961FE000000000000F508
+t1401512446
+s62728
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+c00000000538961FE000000000000DF98
+t1401512446
+s57240
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_stats.dylib
+c00000000538961FE000000000000D790
+t1401512446
+s55184
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_trace.dylib
+c00000000538961FE000000000000E5F0
+t1401512446
+s58864
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libunwind.dylib
+c00000000538961FE000000000000D138
+t1401512446
+s53560
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libxpc.dylib
+c00000000538961FE0000000000025FA8
+t1401512446
+s155560
+
+N/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin/libclang_rt.ios.a
+c000000005383ED980000000000006A88
+t1401154968
+s27272
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/AppDelegate.h
+c00000000539645B2000000000000010E
+t1402357170
+s270
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/AppDelegate.m
+c00000000539645B200000000000007D0
+t1402357170
+s2000
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Basica solo letras para dafont lista__.ttf
+c000000004F673D880000000000005AD8
+t1332166024
+s23256
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Crowded-Info.plist
+c00000000539ED71C000000000000054B
+t1402918684
+s1355
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Crowded-Prefix.pch
+c00000000539645B20000000000000158
+t1402357170
+s344
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Crowded1024.png
+c00000000539E74F50000000000004CC6
+t1402893557
+s19654
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/CrowdedData.h
+c00000000539D6416000000000000011E
+t1402823702
+s286
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/CrowdedData.m
+c00000000539D5F910000000000000230
+t1402822545
+s560
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/CrowdedSong.m4a
+c00000000539E575C00000000001055B6
+t1402885980
+s1070518
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/CrowdedSplash.png
+c00000000539E92100000000000003949
+t1402901008
+s14665
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/CrowdedSplash@2x.png
+c00000000539E68910000000000003CD8
+t1402890385
+s15576
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Enemy.h
+c00000000539D5D1D000000000000011D
+t1402821917
+s285
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Enemy.m
+c00000000539D5D2400000000000000CB
+t1402821924
+s203
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/GameOver.h
+c00000000539D5E8400000000000000C4
+t1402822276
+s196
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/GameOver.m
+c00000000539D6CD10000000000000F6E
+t1402825937
+s3950
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Help.h
+c00000000539D123800000000000000BC
+t1402802744
+s188
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Help.m
+c00000000539E47830000000000000B8D
+t1402881923
+s2957
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Images.xcassets
+c00000000539EA3890000000000000088
+t1402905481
+s136
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Main.storyboard
+c00000000539EA0D60000000000000709
+t1402904790
+s1801
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Menu.h
+c00000000539CD24000000000000000BC
+t1402786368
+s188
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Menu.m
+c00000000539EA7720000000000000CF7
+t1402906482
+s3319
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.h
+c00000000539D10AC0000000000000246
+t1402802348
+s582
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.m
+c00000000539E75BB00000000000027B2
+t1402893755
+s10162
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Spaceship.png
+c00000000521B1C260000000000020E43
+t1377508390
+s134723
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/ViewController.h
+c00000000539E5DD1000000000000011F
+t1402887633
+s287
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/ViewController.m
+c00000000539E5DD100000000000005E5
+t1402887633
+s1509
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/crowdedIcon.png
+c00000000539E68730000000000000E45
+t1402890355
+s3653
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/crowdedIcon@2x.png
+c00000000539E66940000000000001162
+t1402889876
+s4450
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/en.lproj/InfoPlist.strings
+c00000000539645B2000000000000002D
+t1402357170
+s45
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/endParticle.png
+c00000000539B8B0D00000000000010C3
+t1402702605
+s4291
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/enemy0.png
+c00000000539B5CB400000000000010B7
+t1402690740
+s4279
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/main.m
+c00000000539645B2000000000000014A
+t1402357170
+s330
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/player.png
+c00000000539B8B310000000000000D5F
+t1402702641
+s3423
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/GAMECUBEN DualSet.ttf
+c000000004B9B52CC0000000000004CD0
+t1268470476
+s19664
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/MyParticle.sks
+c00000000539C00E7000000000000119B
+t1402732775
+s4507
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.xcent
+t1403043021
+s483
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/AppDelegate.o
+t1403042693
+s61768
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Crowded.LinkFileList
+c00000000539E92400000000000000485
+t1402901056
+s1157
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/CrowdedData.o
+t1403042693
+s10444
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Enemy.o
+t1403042694
+s43372
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/GameOver.o
+t1403042694
+s60068
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Help.o
+t1403042693
+s54600
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Menu.o
+t1403042715
+s58380
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/MyScene.o
+t1403042694
+s94744
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/ViewController.o
+t1403042709
+s50800
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/main.o
+t1403042694
+s3808
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/assetcatalog_dependencies.txt
+t1403042888
+s450
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/assetcatalog_generated_info.plist
+t1403042888
+s709
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app
+t1403043020
+s952
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app.dSYM
+t1403042892
+s102
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Basica solo letras para dafont lista__.ttf
+t1402901182
+s23256
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded
+t1403042906
+s111712
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded1024.png
+t1403042764
+s22654
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/CrowdedSong.m4a
+t1402901178
+s1070518
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/CrowdedSplash.png
+t1403042763
+s13818
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/CrowdedSplash@2x.png
+t1403042763
+s13137
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/GAMECUBEN DualSet.ttf
+t1402901178
+s19664
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Info.plist
+t1403042890
+s1474
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Main.storyboardc
+t1403042888
+s170
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/MyParticle.sks
+t1402901182
+s4507
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/PkgInfo
+t1403042890
+s8
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/ResourceRules.plist
+t1403042644
+s150
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Spaceship.png
+t1403042764
+s180837
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/crowdedIcon.png
+t1403042763
+s3540
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/crowdedIcon@2x.png
+t1403042763
+s4479
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision
+t1403043020
+s7475
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/en.lproj/InfoPlist.strings
+t1402901178
+s42
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/endParticle.png
+t1403042763
+s5101
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/enemy0.png
+t1403042764
+s5091
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/player.png
+t1403042763
+s3665
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/spark.png
+t1403042764
+s10589
+
+N/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/spark.png
+c00000000521B1C260000000000001447
+t1377508390
+s5191
+
+N/Users/alexyeh/Library/MobileDevice/Provisioning Profiles/3D50943B-B6AC-4793-9EF0-ACB2DF7389C9.mobileprovision
+c00000000539EDB070000000000001D33
+t1402919687
+s7475
+
+N/Users/alexyeh/Library/MobileDevice/Provisioning Profiles/F3B94CF2-C44E-478F-95A4-D4D798CA19A9.mobileprovision
+c00000000539ECAA70000000000001CCA
+t1402915495
+s7370
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000533B9F800000000000000094
+t1396416384
+s148
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000533B9F800000000000000096
+t1396416384
+s150
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000533B9F80000000000000036B
+t1396416384
+s875
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000533B9F82000000000000019E
+t1396416386
+s414
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000533B9F820000000000632990
+t1396416386
+s6498704
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c00000000533B9F8200000000000D6100
+t1396416386
+s876800
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000533B9F830000000000CF7800
+t1396416387
+s13596672
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000533B9F83000000000063A500
+t1396416387
+s6530304
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000533B9F8300000000001A2540
+t1396416387
+s1713472
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000533B9F83000000000079C660
+t1396416387
+s7980640
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000533B9F8300000000004D7BC0
+t1396416387
+s5077952
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000533B9F830000000000433410
+t1396416387
+s4404240
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+c00000000533B9F83000000000011EB10
+t1396416387
+s1174288
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000533B9F8300000000002CB700
+t1396416387
+s2930432
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000533B9F840000000000306EF0
+t1396416388
+s3174128
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000533B9F84000000000006DCD0
+t1396416388
+s449744
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000533B9F840000000000A90C10
+t1396416388
+s11078672
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+c00000000533B9F850000000000D06500
+t1396416389
+s13657344
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000533B9F8500000000000417E0
+t1396416389
+s268256
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000533B9F860000000000649DB0
+t1396416390
+s6593968
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000533B9F860000000000186D60
+t1396416390
+s1600864
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+c00000000533B9F860000000000312240
+t1396416390
+s3220032
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000533B9F880000000002759920
+t1396416392
+s41261344
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000533B9F8C0000000000385D50
+t1396416396
+s3693904
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+c00000000533B9F92000000000001E300
+t1396416402
+s123648
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+c00000000533B9F92000000000055EFE0
+t1396416402
+s5631968
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+c00000000533B9F93000000000002A880
+t1396416403
+s174208
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+c00000000533B9F9300000000000458C0
+t1396416403
+s284864
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+c00000000533B9F93000000000003E3E0
+t1396416403
+s254944
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+c00000000533B9F93000000000002B130
+t1396416403
+s176432
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+c00000000533B9F9300000000000E1FD0
+t1396416403
+s925648
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+c00000000533B9F9300000000000A2A70
+t1396416403
+s666224
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+c00000000533B9F93000000000001E8A0
+t1396416403
+s125088
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+c00000000533B9F93000000000000BF00
+t1396416403
+s48896
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+c00000000533B9F930000000000034380
+t1396416403
+s213888
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+c00000000533B9F930000000000022F30
+t1396416403
+s143152
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+c00000000533B9F93000000000001E2A0
+t1396416403
+s123552
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+c00000000533B9F930000000000052520
+t1396416403
+s337184
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+c00000000533B9F930000000000015F20
+t1396416403
+s89888
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+c00000000533B9F9300000000001B90D0
+t1396416403
+s1806544
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+c00000000533B9F93000000000001F170
+t1396416403
+s127344
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+c00000000533B9F93000000000002FCF0
+t1396416403
+s195824
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+c00000000533B9F93000000000008A150
+t1396416403
+s565584
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+c00000000533B9F9300000000000B60E0
+t1396416403
+s745696
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+c00000000533B9F930000000000078720
+t1396416403
+s493344
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+c00000000533B9F9300000000000621F0
+t1396416403
+s401904
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+c00000000533B9F9300000000000BDAE0
+t1396416403
+s776928
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+c00000000533B9F930000000000039080
+t1396416403
+s233600
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+c00000000533B9F93000000000003CBC0
+t1396416403
+s248768
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+c00000000533B9F93000000000002CFE0
+t1396416403
+s184288
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+c00000000533B9F93000000000001EB50
+t1396416403
+s125776
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+c00000000533B9F93000000000001EED0
+t1396416403
+s126672
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+c00000000533B9F9300000000000236B0
+t1396416403
+s145072
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+c00000000533B9F9300000000000AC500
+t1396416403
+s705792
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000533B6DFC0000000000000ADC
+t1396403708
+s2780
+
+N/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c00000000533B9F79000000000000514C
+t1396416377
+s20812
+
+N/var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch.pch
+t1403042683
+s87784
+
+CBuild AST from /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/AppDelegate.m
+r0
+
+CBuild AST from /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/CrowdedData.m
+r0
+
+CBuild AST from /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Enemy.m
+r0
+
+CBuild AST from /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/GameOver.m
+r0
+
+CBuild AST from /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Help.m
+r0
+
+CBuild AST from /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Menu.m
+r0
+
+CBuild AST from /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/MyScene.m
+r0
+
+CBuild AST from /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/ViewController.m
+r0
+
+CBuild AST from /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesddd16f49f450b941^51f4b04bf450b941^---0#1#1#--18"Check dependencies36"EA1592A1-FD64-43D6-90C9-E86E8144B7AE-
+
+CCodeSign /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app
+s424735821.027069
+e424735831.168253
+r1
+xCodeSign
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app
+o/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app: replacing existing signature
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"CodeSign build/Debug-iphoneos/Crowded.app41"CodeSign build/Debug-iphoneos/Crowded.app5932074df450b941^e0132b57f450b941^-111"/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@92"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/build/Debug-iphoneos/Crowded.app/0000000000000000^993"CodeSign build/Debug-iphoneos/Crowded.app    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export CODESIGN_ALLOCATE=/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Chei Yeh (AJ8EJYVR64)" and provisioning profile "Crowded.alexlyeh" (3D50943B-B6AC-4793-9EF0-ACB2DF7389C9)    /usr/bin/codesign --force --sign 1A240470D3E61CDC85E93CBBC1446268C9EEEC1E --resource-rules=/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/ResourceRules.plist --entitlements /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.xcent /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app36"87FD863F-3E56-47CC-A43F-DD79DC09946B-
+b2ABB99FA-0C4E-4E07-8F97-030773F5F65D
+
+CCompileAssetCatalog /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Images.xcassets
+s424735564.253595
+e424735689.338000
+r1
+xCompileAssetCatalog
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Images.xcassets
+o/* com.apple.actool.document.warnings */
+o/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Images.xcassets:./LaunchImage.launchimage/[iphone][][2x][portrait][full-screen][7.0][CrowdedSplash@2x.png]: warning: The launch image set "LaunchImage" has 2 unassigned images.
+o/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Images.xcassets:./AppIcon.appiconset/[iphone][29x29][2x]: warning: AppIcon.appiconset/crowdedIcon-1.png is 60x60 but should be 58x58.
+o/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Images.xcassets:./AppIcon.appiconset/[iphone][40x40][2x]: warning: AppIcon.appiconset/crowdedIcon.png is 60x60 but should be 80x80.
+o/* com.apple.actool.compilation-results */
+o/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/AppIcon60x60@2x.png
+o/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/LaunchImage-700-568h@2x.png
+o/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Assets.car
+o/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CompileAssetCatalog build/Debug-iphoneos/Crowded.app Crowded/Images.xcassets76"CompileAssetCatalog build/Debug-iphoneos/Crowded.app Crowded/Images.xcassetsa04e414cf350b941^618a56c9f350b941^-1129"/* com.apple.actool.document.warnings *//Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Images.xcassets:./LaunchImage.launchimage/[iphone][][2x][portrait][full-screen][7.0][CrowdedSplash@2x.png]: warning: The launch image set "LaunchImage" has 2 unassigned images./Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Images.xcassets:./AppIcon.appiconset/[iphone][29x29][2x]: warning: AppIcon.appiconset/crowdedIcon-1.png is 60x60 but should be 58x58./Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Images.xcassets:./AppIcon.appiconset/[iphone][40x40][2x]: warning: AppIcon.appiconset/crowdedIcon.png is 60x60 but should be 80x80./* com.apple.actool.compilation-results *//Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/AppIcon60x60@2x.png/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/LaunchImage-700-568h@2x.png/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Assets.car/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/assetcatalog_generated_info.plist3(21%IDEActivityLogMessage2@59"The launch image set "LaunchImage" has 2 unassigned images.-424735689#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@83"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--2@66"AppIcon.appiconset/crowdedIcon-1.png is 60x60 but should be 58x58.-424735689#18446744073709551615#0#-1#-3@83"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--2@64"AppIcon.appiconset/crowdedIcon.png is 60x60 but should be 80x80.-424735689#18446744073709551615#0#-1#-3@83"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--0#0#1#-19%DVTDocumentLocation4@83"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Images.xcassets/0000000000000000^1067"CompileAssetCatalog build/Debug-iphoneos/Crowded.app Crowded/Images.xcassets    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Images.xcassets36"095C9B12-CA7C-47D9-B3A9-72611249ED9A-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/AppDelegate.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424735484.256867
+e424735493.893809
+r1
+xCompileC
+xbuild/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/AppDelegate.o
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/AppDelegate.m
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/AppDelegate.m183"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/AppDelegate.o Crowded/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler091b42fcf250b941^28d3e405f350b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/AppDelegate.m0000000000000000^3510"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/AppDelegate.o Crowded/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export LANG=en_US.US-ASCII    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-generated-files.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-own-target-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-all-target-headers.hmap -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-project-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/include -I/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources/armv7 -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources -F/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos -include /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch -MMD -MT dependencies -MF /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/AppDelegate.dia -c /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/AppDelegate.m -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/AppDelegate.o36"757B31EF-5252-4F9F-809E-8E79CF591F79-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/CrowdedData.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/CrowdedData.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424735484.252594
+e424735493.385780
+r1
+xCompileC
+xbuild/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/CrowdedData.o
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/CrowdedData.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/CrowdedData.m
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/CrowdedData.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/CrowdedData.m183"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/CrowdedData.o Crowded/CrowdedData.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera53241fcf250b941^61c46205f350b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/CrowdedData.m0000000000000000^3510"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/CrowdedData.o Crowded/CrowdedData.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export LANG=en_US.US-ASCII    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-generated-files.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-own-target-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-all-target-headers.hmap -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-project-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/include -I/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources/armv7 -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources -F/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos -include /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch -MMD -MT dependencies -MF /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/CrowdedData.d --serialize-diagnostics /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/CrowdedData.dia -c /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/CrowdedData.m -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/CrowdedData.o36"3CB7DC34-E031-4093-8ABF-FF867D8CBB78-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Enemy.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Enemy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424735484.254175
+e424735494.684206
+r1
+xCompileC
+xbuild/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Enemy.o
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Enemy.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Enemy.m
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Enemy.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Enemy.m171"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Enemy.o Crowded/Enemy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compileree9541fcf250b941^622caf06f350b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Enemy.m0000000000000000^3474"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Enemy.o Crowded/Enemy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export LANG=en_US.US-ASCII    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-generated-files.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-own-target-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-all-target-headers.hmap -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-project-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/include -I/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources/armv7 -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources -F/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos -include /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch -MMD -MT dependencies -MF /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Enemy.d --serialize-diagnostics /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Enemy.dia -c /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Enemy.m -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Enemy.o36"23029318-07BC-4DE6-BEA5-8927E65AF537-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/GameOver.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/GameOver.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424735484.255708
+e424735494.311269
+r1
+xCompileC
+xbuild/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/GameOver.o
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/GameOver.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/GameOver.m
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/GameOver.h
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.h
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Menu.h
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/CrowdedData.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/GameOver.m177"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/GameOver.o Crowded/GameOver.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler1ee041fcf250b941^39b54f06f350b941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/GameOver.m0000000000000000^3492"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/GameOver.o Crowded/GameOver.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export LANG=en_US.US-ASCII    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-generated-files.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-own-target-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-all-target-headers.hmap -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-project-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/include -I/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources/armv7 -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources -F/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos -include /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch -MMD -MT dependencies -MF /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/GameOver.d --serialize-diagnostics /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/GameOver.dia -c /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/GameOver.m -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/GameOver.o36"CE43B100-C20E-49E0-BCD7-7F2FA02F456C-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Help.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Help.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424735484.257606
+e424735493.981580
+r1
+xCompileC
+xbuild/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Help.o
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Help.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Help.m
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Help.h
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Menu.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Help.m169"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Help.o Crowded/Help.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerd53d42fcf250b941^d74bfb05f350b941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Help.m0000000000000000^3468"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Help.o Crowded/Help.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export LANG=en_US.US-ASCII    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-generated-files.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-own-target-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-all-target-headers.hmap -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-project-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/include -I/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources/armv7 -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources -F/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos -include /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch -MMD -MT dependencies -MF /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Help.d --serialize-diagnostics /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Help.dia -c /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Help.m -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Help.o36"1D2B22AA-D030-407F-85DD-12194EB9B705-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Menu.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Menu.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424735484.255304
+e424735516.094367
+r1
+xCompileC
+xbuild/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Menu.o
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Menu.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Menu.m
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Menu.h
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.h
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Help.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Menu.m169"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Menu.o Crowded/Menu.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerb8cc41fcf250b941^cf2d181cf350b941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Menu.m0000000000000000^3468"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Menu.o Crowded/Menu.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export LANG=en_US.US-ASCII    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-generated-files.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-own-target-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-all-target-headers.hmap -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-project-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/include -I/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources/armv7 -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources -F/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos -include /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch -MMD -MT dependencies -MF /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Menu.d --serialize-diagnostics /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Menu.dia -c /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Menu.m -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Menu.o36"807F3399-5FF0-4FE2-86F1-69E3837B5EA6-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/MyScene.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/MyScene.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424735484.253459
+e424735494.911929
+r1
+xCompileC
+xbuild/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/MyScene.o
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.m
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.h
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Enemy.h
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/CrowdedData.h
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/GameOver.h
+o/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.m:75:15: warning: unused variable 'rand' [-Wunused-variable]
+o    NSNumber *rand = [NSNumber numberWithInt:arc4random() % 4];
+o              ^
+o/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.m:131:28: warning: local declaration of 'player' hides instance variable [-Wshadow-ivar]
+o        emitter.position = player.position;
+o                           ^
+o/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.m:137:10: warning: local declaration of 'player' hides instance variable [-Wshadow-ivar]
+o        [player removeFromParent];
+o         ^
+o/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.m:183:19: warning: unused variable 'num' [-Wunused-variable]
+o        NSString *num = [NSString stringWithString:[scoreNum stringValue]];
+o                  ^
+o4 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.m175"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/MyScene.o Crowded/MyScene.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler2e3a41fcf250b941^c7bd2107f350b941^-873"/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.m:75:15: warning: unused variable 'rand' [-Wunused-variable]    NSNumber *rand = [NSNumber numberWithInt:arc4random() % 4];              ^/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.m:131:28: warning: local declaration of 'player' hides instance variable [-Wshadow-ivar]        emitter.position = player.position;                           ^/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.m:137:10: warning: local declaration of 'player' hides instance variable [-Wshadow-ivar]        [player removeFromParent];         ^/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.m:183:19: warning: unused variable 'num' [-Wunused-variable]        NSString *num = [NSString stringWithString:[scoreNum stringValue]];                  ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@22"Unused variable 'rand'-424735494#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@76"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/MyScene.m0000000000000000^74#14#74#14#2633#0#19"Unused Entity Issue--2@53"Local declaration of 'player' hides instance variable-424735494#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/MyScene.m0000000000000000^130#27#130#27#4836#0#14"Semantic Issue--2@53"Local declaration of 'player' hides instance variable-424735494#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/MyScene.m0000000000000000^136#9#136#9#5043#0#14"Semantic Issue--2@21"Unused variable 'num'-424735494#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@76"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/MyScene.m0000000000000000^182#18#182#18#6462#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@76"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/MyScene.m0000000000000000^3486"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/MyScene.o Crowded/MyScene.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export LANG=en_US.US-ASCII    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-generated-files.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-own-target-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-all-target-headers.hmap -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-project-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/include -I/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources/armv7 -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources -F/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos -include /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch -MMD -MT dependencies -MF /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/MyScene.d --serialize-diagnostics /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/MyScene.dia -c /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/MyScene.m -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/MyScene.o36"A7E7BE98-EBE5-4B49-9ADF-B6E537F86C27-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/ViewController.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424735484.256303
+e424735509.431952
+r1
+xCompileC
+xbuild/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/ViewController.o
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/ViewController.m
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/ViewController.h
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/MyScene.h
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Menu.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/ViewController.m189"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/ViewController.o Crowded/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler020d42fcf250b941^834d7115f350b941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/ViewController.m0000000000000000^3528"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/ViewController.o Crowded/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export LANG=en_US.US-ASCII    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-generated-files.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-own-target-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-all-target-headers.hmap -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-project-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/include -I/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources/armv7 -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources -F/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos -include /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch -MMD -MT dependencies -MF /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/ViewController.dia -c /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/ViewController.m -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/ViewController.o36"766A1044-974B-4754-9B57-9492432D7FC2-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/main.o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424735493.413983
+e424735497.386586
+r1
+xCompileC
+xbuild/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/main.o
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/main.m
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/main.m169"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/main.o Crowded/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc1746a05f350b941^6f80b910f350b941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/main.m0000000000000000^3468"CompileC build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/main.o Crowded/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export LANG=en_US.US-ASCII    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-generated-files.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-own-target-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-all-target-headers.hmap -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-project-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/include -I/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources/armv7 -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources -F/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos -include /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch -MMD -MT dependencies -MF /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/main.dia -c /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/main.m -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/main.o36"2FC78C55-39E8-41C3-B69A-80DADAC3893E-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCompileStoryboard /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Main.storyboard
+s424735532.618478
+e424735690.131797
+r1
+xCompileStoryboard
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"CompileStoryboard Crowded/Main.storyboard41"CompileStoryboard Crowded/Main.storyboard0ed79e2cf350b941^8c9d84caf350b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Main.storyboard0000000000000000^777"CompileStoryboard Crowded/Main.storyboard    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.0    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin/..    /Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Main.storyboardc /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Main.storyboard36"27AB9C9B-2199-4271-8152-5D3A955E501C-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded1024.png Crowded/Crowded1024.png
+s424735563.987763
+e424735565.337097
+r1
+xCopyPNGFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded1024.png
+xCrowded/Crowded1024.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile build/Debug-iphoneos/Crowded.app/Crowded1024.png Crowded/Crowded1024.png84"CopyPNGFile build/Debug-iphoneos/Crowded.app/Crowded1024.png Crowded/Crowded1024.png8f37fd4bf350b941^7711e679f350b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Crowded1024.png0000000000000000^619"CopyPNGFile build/Debug-iphoneos/Crowded.app/Crowded1024.png Crowded/Crowded1024.png    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Crowded1024.png /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded1024.png36"9E2F3D33-D6A2-4D0C-8E1F-0AD4B10654BB-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/CrowdedSplash.png Crowded/CrowdedSplash.png
+s424735532.617862
+e424735564.120248
+r1
+xCopyPNGFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/CrowdedSplash.png
+xCrowded/CrowdedSplash.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile build/Debug-iphoneos/Crowded.app/CrowdedSplash.png Crowded/CrowdedSplash.png88"CopyPNGFile build/Debug-iphoneos/Crowded.app/CrowdedSplash.png Crowded/CrowdedSplash.pnga5869e2cf350b941^67eee579f350b941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/CrowdedSplash.png0000000000000000^627"CopyPNGFile build/Debug-iphoneos/Crowded.app/CrowdedSplash.png Crowded/CrowdedSplash.png    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/CrowdedSplash.png /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/CrowdedSplash.png36"AEA6D1D5-7218-4195-B262-946BA72E0D32-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/CrowdedSplash@2x.png Crowded/CrowdedSplash@2x.png
+s424735532.618213
+e424735564.253650
+r1
+xCopyPNGFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/CrowdedSplash@2x.png
+xCrowded/CrowdedSplash@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Debug-iphoneos/Crowded.app/CrowdedSplash@2x.png Crowded/CrowdedSplash@2x.png94"CopyPNGFile build/Debug-iphoneos/Crowded.app/CrowdedSplash@2x.png Crowded/CrowdedSplash@2x.png35b79e2cf350b941^02f2e579f350b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/CrowdedSplash@2x.png0000000000000000^639"CopyPNGFile build/Debug-iphoneos/Crowded.app/CrowdedSplash@2x.png Crowded/CrowdedSplash@2x.png    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/CrowdedSplash@2x.png /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/CrowdedSplash@2x.png36"3F6E352D-AC2A-4861-B4C5-AA80761ED0CB-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Spaceship.png Crowded/Spaceship.png
+s424735532.619132
+e424735564.458739
+r1
+xCopyPNGFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Spaceship.png
+xCrowded/Spaceship.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/Debug-iphoneos/Crowded.app/Spaceship.png Crowded/Spaceship.png80"CopyPNGFile build/Debug-iphoneos/Crowded.app/Spaceship.png Crowded/Spaceship.pnga8019f2cf350b941^55fae579f350b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Spaceship.png0000000000000000^611"CopyPNGFile build/Debug-iphoneos/Crowded.app/Spaceship.png Crowded/Spaceship.png    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Spaceship.png /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Spaceship.png36"7F80EB05-F429-43C7-A012-5D20676F30DA-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/crowdedIcon.png Crowded/crowdedIcon.png
+s424735532.620030
+e424735563.987071
+r1
+xCopyPNGFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/crowdedIcon.png
+xCrowded/crowdedIcon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile build/Debug-iphoneos/Crowded.app/crowdedIcon.png Crowded/crowdedIcon.png84"CopyPNGFile build/Debug-iphoneos/Crowded.app/crowdedIcon.png Crowded/crowdedIcon.png4e299f2cf350b941^76dfe579f350b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/crowdedIcon.png0000000000000000^619"CopyPNGFile build/Debug-iphoneos/Crowded.app/crowdedIcon.png Crowded/crowdedIcon.png    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/crowdedIcon.png /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/crowdedIcon.png36"C19EE246-652B-40BD-ACA2-8E75DCFE432E-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/crowdedIcon@2x.png Crowded/crowdedIcon@2x.png
+s424735532.242146
+e424735563.986980
+r1
+xCopyPNGFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/crowdedIcon@2x.png
+xCrowded/crowdedIcon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/Debug-iphoneos/Crowded.app/crowdedIcon@2x.png Crowded/crowdedIcon@2x.png90"CopyPNGFile build/Debug-iphoneos/Crowded.app/crowdedIcon@2x.png Crowded/crowdedIcon@2x.png31eb9d2cf350b941^8cd6e579f350b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/crowdedIcon@2x.png0000000000000000^631"CopyPNGFile build/Debug-iphoneos/Crowded.app/crowdedIcon@2x.png Crowded/crowdedIcon@2x.png    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/crowdedIcon@2x.png /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/crowdedIcon@2x.png36"6B4DC8D4-BA1F-41F9-8530-7879B0D38E28-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/endParticle.png Crowded/endParticle.png
+s424735532.620869
+e424735563.987113
+r1
+xCopyPNGFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/endParticle.png
+xCrowded/endParticle.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile build/Debug-iphoneos/Crowded.app/endParticle.png Crowded/endParticle.png84"CopyPNGFile build/Debug-iphoneos/Crowded.app/endParticle.png Crowded/endParticle.pngf2419f2cf350b941^40dce579f350b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/endParticle.png0000000000000000^619"CopyPNGFile build/Debug-iphoneos/Crowded.app/endParticle.png Crowded/endParticle.png    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/endParticle.png /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/endParticle.png36"4498597A-7656-4666-97CB-B0054FE5BC8F-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/enemy0.png Crowded/enemy0.png
+s424735563.988074
+e424735565.075342
+r1
+xCopyPNGFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/enemy0.png
+xCrowded/enemy0.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CopyPNGFile build/Debug-iphoneos/Crowded.app/enemy0.png Crowded/enemy0.png74"CopyPNGFile build/Debug-iphoneos/Crowded.app/enemy0.png Crowded/enemy0.pngef38fd4bf350b941^ab09e679f350b941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/enemy0.png0000000000000000^599"CopyPNGFile build/Debug-iphoneos/Crowded.app/enemy0.png Crowded/enemy0.png    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/enemy0.png /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/enemy0.png36"798DC651-45FF-4643-B1FD-D4F3B13241AE-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/player.png Crowded/player.png
+s424735532.620590
+e424735563.987142
+r1
+xCopyPNGFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/player.png
+xCrowded/player.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CopyPNGFile build/Debug-iphoneos/Crowded.app/player.png Crowded/player.png74"CopyPNGFile build/Debug-iphoneos/Crowded.app/player.png Crowded/player.png94349f2cf350b941^22e3e579f350b941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/player.png0000000000000000^599"CopyPNGFile build/Debug-iphoneos/Crowded.app/player.png Crowded/player.png    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/player.png /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/player.png36"44E2E3B9-B8CD-4820-A6BE-C32AB2380ED1-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCopyPNGFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/spark.png spark.png
+s424735563.987485
+e424735565.075249
+r1
+xCopyPNGFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/spark.png
+xspark.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/Crowded.app/spark.png spark.png64"CopyPNGFile build/Debug-iphoneos/Crowded.app/spark.png spark.pngb939fd4bf350b941^ee05e679f350b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/spark.png0000000000000000^579"CopyPNGFile build/Debug-iphoneos/Crowded.app/spark.png spark.png    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/spark.png /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/spark.png36"ED773218-6CE3-430B-A4E2-CA2F3CEC33CB-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCopyStringsFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/en.lproj/InfoPlist.strings Crowded/en.lproj/InfoPlist.strings
+s424593978.620738
+e424593978.991626
+r1
+xCopyStringsFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/en.lproj/InfoPlist.strings
+xCrowded/en.lproj/InfoPlist.strings
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/en.lproj/InfoPlist.strings110"CopyStringsFile build/Debug-iphoneos/Crowded.app/en.lproj/InfoPlist.strings Crowded/en.lproj/InfoPlist.strings452f9f3aca4eb941^a5dcfd3aca4eb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/en.lproj/InfoPlist.strings0000000000000000^589"CopyStringsFile build/Debug-iphoneos/Crowded.app/en.lproj/InfoPlist.strings Crowded/en.lproj/InfoPlist.strings    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/en.lproj -- Crowded/en.lproj/InfoPlist.strings36"4876F61D-DC7F-4AED-BCB1-2858D3CB17C1-
+b945BC94F-1E86-4DEE-98DF-33BCF244F98A
+
+CCpResource /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist build/Debug-iphoneos/Crowded.app/ResourceRules.plist
+s424593941.523554
+e424593941.631488
+r1
+xCpResource
+x/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/Crowded.app/ResourceRules.plist
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Copy /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist191"CpResource /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist build/Debug-iphoneos/Crowded.app/ResourceRules.plistd8488615ca4eb941^bdaca115ca4eb941^---0#0#1#-19%DVTDocumentLocation2@134"file:///Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist0000000000000000^773"CpResource /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist build/Debug-iphoneos/Crowded.app/ResourceRules.plist    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app36"44A0E3D3-9489-4C7E-99E1-9E4C7C1FD08C-
+b945BC94F-1E86-4DEE-98DF-33BCF244F98A
+
+CCpResource /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/Crowded.app/ResourceRules.plist
+s424735444.000329
+e424735444.726259
+r1
+xCpResource
+x/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/Crowded.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphoneos/Crowded.app/ResourceRules.plist186"CpResource /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/Crowded.app/ResourceRules.plistf60821d4f250b941^e1edb9d4f250b941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/build/Debug-iphoneos/Crowded.app/ResourceRules.plist0000000000000000^753"CpResource /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/Crowded.app/ResourceRules.plist    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app36"C519CBEB-98E2-4C60-934F-6399B796A10D-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CCpResource Crowded/Basica\ solo\ letras\ para\ dafont\ lista__.ttf build/Debug-iphoneos/Crowded.app/Basica\ solo\ letras\ para\ dafont\ lista__.ttf
+s424593982.467015
+e424593982.589433
+r1
+xCpResource
+xCrowded/Basica solo letras para dafont lista__.ttf
+xbuild/Debug-iphoneos/Crowded.app/Basica solo letras para dafont lista__.ttf
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Basica solo letras para dafont lista__.ttf147"CpResource Crowded/Basica\ solo\ letras\ para\ dafont\ lista__.ttf build/Debug-iphoneos/Crowded.app/Basica\ solo\ letras\ para\ dafont\ lista__.ttf5cc8773eca4eb941^b327993eca4eb941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Basica%20solo%20letras%20para%20dafont%20lista__.ttf0000000000000000^708"CpResource Crowded/Basica\ solo\ letras\ para\ dafont\ lista__.ttf build/Debug-iphoneos/Crowded.app/Basica\ solo\ letras\ para\ dafont\ lista__.ttf    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Basica\ solo\ letras\ para\ dafont\ lista__.ttf /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app36"2C6540FE-B24D-41AD-95F5-57D4E05DD570-
+b945BC94F-1E86-4DEE-98DF-33BCF244F98A
+
+CCpResource Crowded/CrowdedSong.m4a build/Debug-iphoneos/Crowded.app/CrowdedSong.m4a
+s424593978.620895
+e424593978.994826
+r1
+xCpResource
+xCrowded/CrowdedSong.m4a
+xbuild/Debug-iphoneos/Crowded.app/CrowdedSong.m4a
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/CrowdedSong.m4a83"CpResource Crowded/CrowdedSong.m4a build/Debug-iphoneos/Crowded.app/CrowdedSong.m4a282a9f3aca4eb941^d6adfe3aca4eb941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/CrowdedSong.m4a0000000000000000^612"CpResource Crowded/CrowdedSong.m4a build/Debug-iphoneos/Crowded.app/CrowdedSong.m4a    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/CrowdedSong.m4a /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app36"E4F269D8-35F9-4EFB-A4BE-85E5E8E2FB6A-
+b945BC94F-1E86-4DEE-98DF-33BCF244F98A
+
+CCpResource GAMECUBEN\ DualSet.ttf build/Debug-iphoneos/Crowded.app/GAMECUBEN\ DualSet.ttf
+s424593978.620705
+e424593978.919392
+r1
+xCpResource
+xGAMECUBEN DualSet.ttf
+xbuild/Debug-iphoneos/Crowded.app/GAMECUBEN DualSet.ttf
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/GAMECUBEN DualSet.ttf89"CpResource GAMECUBEN\ DualSet.ttf build/Debug-iphoneos/Crowded.app/GAMECUBEN\ DualSet.ttf1d1d9f3aca4eb941^315eeb3aca4eb941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/GAMECUBEN%20DualSet.ttf0000000000000000^617"CpResource GAMECUBEN\ DualSet.ttf build/Debug-iphoneos/Crowded.app/GAMECUBEN\ DualSet.ttf    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/GAMECUBEN\ DualSet.ttf /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app36"0FC34014-6A85-41ED-A231-283EAB14B0BE-
+b945BC94F-1E86-4DEE-98DF-33BCF244F98A
+
+CCpResource MyParticle.sks build/Debug-iphoneos/Crowded.app/MyParticle.sks
+s424593982.577895
+e424593982.665895
+r1
+xCpResource
+xMyParticle.sks
+xbuild/Debug-iphoneos/Crowded.app/MyParticle.sks
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/MyParticle.sks73"CpResource MyParticle.sks build/Debug-iphoneos/Crowded.app/MyParticle.sksda1b943eca4eb941^f27caa3eca4eb941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/MyParticle.sks0000000000000000^593"CpResource MyParticle.sks build/Debug-iphoneos/Crowded.app/MyParticle.sks    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/MyParticle.sks /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app36"A1C37DA0-902A-4EFB-90E8-83D109BB4A74-
+b945BC94F-1E86-4DEE-98DF-33BCF244F98A
+
+CGenerateDSYMFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app.dSYM /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded
+s424735819.704019
+e424735820.887787
+r1
+xGenerateDSYMFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app.dSYM
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Generate /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app.dSYM95"GenerateDSYMFile build/Debug-iphoneos/Crowded.app.dSYM build/Debug-iphoneos/Crowded.app/Crowded22a6b44bf450b941^1af9044df450b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/build/Debug-iphoneos/Crowded.app.dSYM/0000000000000000^628"GenerateDSYMFile build/Debug-iphoneos/Crowded.app.dSYM build/Debug-iphoneos/Crowded.app/Crowded    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app.dSYM36"5CE4E4A5-B88B-4CBC-A760-161FF5C3B966-
+b2ABB99FA-0C4E-4E07-8F97-030773F5F65D
+
+CLd /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded normal armv7
+s424735519.026240
+e424735532.240421
+r1
+xLd
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded
+xnormal
+xarmv7
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Crowded.LinkFileList
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/CrowdedData.o
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/MyScene.o
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Enemy.o
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Menu.o
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/GameOver.o
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/ViewController.o
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/AppDelegate.o
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Help.o
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/main.o
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Link /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded56"Ld build/Debug-iphoneos/Crowded.app/Crowded normal armv7d905071ff350b941^6d903d2cf350b941^---0#0#1#--1302"Ld build/Debug-iphoneos/Crowded.app/Crowded normal armv7    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos -F/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos -filelist /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Crowded.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework SpriteKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Objects-normal/armv7/Crowded_dependency_info.dat -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Crowded36"8704003B-AA5E-44D6-8574-54E858B5E284-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CProcessInfoPlistFile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Info.plist /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Crowded-Info.plist
+s424735690.134151
+e424735690.988979
+r1
+xProcessInfoPlistFile
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/Info.plist
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Crowded-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Process /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Crowded-Info.plist91"ProcessInfoPlistFile build/Debug-iphoneos/Crowded.app/Info.plist Crowded/Crowded-Info.plistcae222caf350b941^b22ffdcaf350b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Crowded-Info.plist0000000000000000^983"ProcessInfoPlistFile build/Debug-iphoneos/Crowded.app/Info.plist Crowded/Crowded-Info.plist    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Crowded-Info.plist -genpkginfo /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/ResourceRules.plist -additionalcontentfile /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/assetcatalog_generated_info.plist -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/Info.plist36"6A567BD3-BFA2-4640-B735-48E506E406BE-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CProcessPCH /Users/alexyeh/Library/Developer/Xcode/DerivedData/Crowded-ggmjuiuonfczdgcnbnexooiquked/Index/PrecompiledHeaders/Crowded-Prefix-azxrwggxbnbmpogfpkqyqthqdvlp_ast/Crowded-Prefix.pch.pch Crowded/Crowded-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/alexyeh/Library/Developer/Xcode/DerivedData/Crowded-ggmjuiuonfczdgcnbnexooiquked/Index/PrecompiledHeaders/Crowded-Prefix-epjaodognaepyldhgtkjrtnafwot_ast/Crowded-Prefix.pch.pch Crowded/Crowded-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch.pch Crowded/Crowded-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424735444.903679
+e424735484.250880
+r1
+xProcessPCH
+x/var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch.pch
+xCrowded/Crowded-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Crowded-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Crowded/Crowded-Prefix.pch291"ProcessPCH /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch.pch Crowded/Crowded-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler45d5e7d4f250b941^4f3f40fcf250b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Crowded-Prefix.pch0000000000000000^3586"ProcessPCH /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch.pch Crowded/Crowded-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export LANG=en_US.US-ASCII    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-generated-files.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-own-target-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-all-target-headers.hmap -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-project-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/include -I/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources/armv7 -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources -F/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos --serialize-diagnostics /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch.d -c /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Crowded-Prefix.pch -o /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-bwsksqmhtuhfvdbhebkmofvlgzrn/Crowded-Prefix.pch.pch36"55CBB391-C6A9-4BB3-BF6D-5F597CC861FD-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CProcessPCH /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/6.0-6A215l/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-azylhjpnqpcuddedognbjaovkjar/Crowded-Prefix.pch.pch Crowded/Crowded-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424593941.661715
+e424593955.637329
+r1
+xProcessPCH
+x/var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/6.0-6A215l/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-azylhjpnqpcuddedognbjaovkjar/Crowded-Prefix.pch.pch
+xCrowded/Crowded-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Crowded-Prefix.pch
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/Darwin-RQXL4A1IYOWU.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/ObjectiveC-2PO3MP4QEKX60.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/os-RQXL4A1IYOWU.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/Dispatch-200TCXFHLBAN.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/CoreFoundation-2AIXWZH75S1F2.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/Security-3TMUN3QYCEHX6.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/CFNetwork-3OSSVTY90BW7Y.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/Foundation-19WWVRXCAPYJ4.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/CoreGraphics-3OSSVTY90BW7Y.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/OpenGLES-173959RCA7JH7.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/CoreVideo-2QZ6FOOTGKTIL.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/CoreImage-3OSSVTY90BW7Y.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/CoreText-3OSSVTY90BW7Y.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/Metal-3OSSVTY90BW7Y.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/QuartzCore-27BK5KN9YMMN4.pcm
+d/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache/1W0BFUQZJUGE/UIKit-3V4EEBUEB6TQM.pcm
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Precompile /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/Crowded/Crowded-Prefix.pch289"ProcessPCH /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/6.0-6A215l/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-azylhjpnqpcuddedognbjaovkjar/Crowded-Prefix.pch.pch Crowded/Crowded-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler6bd7c015ca4eb941^b14ed524ca4eb941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded/Crowded-Prefix.pch0000000000000000^3546"ProcessPCH /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/6.0-6A215l/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-azylhjpnqpcuddedognbjaovkjar/Crowded-Prefix.pch.pch Crowded/Crowded-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexyeh/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-generated-files.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-own-target-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-all-target-headers.hmap -iquote /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded-project-headers.hmap -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/include -I/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources/armv7 -I/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/DerivedSources -F/Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos -MMD -MT dependencies -MF /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/6.0-6A215l/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-azylhjpnqpcuddedognbjaovkjar/Crowded-Prefix.pch.d -c /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/Crowded/Crowded-Prefix.pch -o /var/folders/4q/pzp61xxd1wb294rvmvlr1tp00000gn/C/com.apple.DeveloperTools/6.0-6A215l/Xcode/SharedPrecompiledHeaders/Crowded-Prefix-azylhjpnqpcuddedognbjaovkjar/Crowded-Prefix.pch.pch36"80DD00B3-D771-44D6-AF02-3C0CC2C36684-
+b945BC94F-1E86-4DEE-98DF-33BCF244F98A
+
+CProcessProductPackaging /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.app.xcent
+s424610029.811021
+e424610029.908468
+r1
+xProcessProductPackaging
+x/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.app.xcent
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Process product packaging217"ProcessProductPackaging /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.app.xcent92cfcfed084fb941^1d94e8ed084fb941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/Crowded.app/Info.plist003408b3ddffdf42^785"ProcessProductPackaging /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.app.xcent    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.app.xcent36"886C39C4-A67E-42F6-B679-7253BC257C1A-
+b7392415C-AE04-400F-A050-8A11801ACD2F
+
+CProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/3D50943B-B6AC-4793-9EF0-ACB2DF7389C9.mobileprovision /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision
+s424735820.888643
+e424735820.947309
+r1
+xProcessProductPackaging
+x/Users/alexyeh/Library/MobileDevice/Provisioning Profiles/3D50943B-B6AC-4793-9EF0-ACB2DF7389C9.mobileprovision
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection193"ProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/3D50943B-B6AC-4793-9EF0-ACB2DF7389C9.mobileprovision build/Debug-iphoneos/Crowded.app/embedded.mobileprovision193"ProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/3D50943B-B6AC-4793-9EF0-ACB2DF7389C9.mobileprovision build/Debug-iphoneos/Crowded.app/embedded.mobileprovision76c6e34cf450b941^69fe044df450b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision0000000000000000^701"ProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/3D50943B-B6AC-4793-9EF0-ACB2DF7389C9.mobileprovision build/Debug-iphoneos/Crowded.app/embedded.mobileprovision    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/3D50943B-B6AC-4793-9EF0-ACB2DF7389C9.mobileprovision -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision36"4A44622A-5D2F-49CA-97CB-BC50E8EF38AA-
+b2ABB99FA-0C4E-4E07-8F97-030773F5F65D
+
+CProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/685BC4AC-1357-4628-BBFB-33E19EE43E48.mobileprovision /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision
+s424594074.571118
+e424594075.248593
+r1
+xProcessProductPackaging
+x/Users/alexyeh/Library/MobileDevice/Provisioning Profiles/685BC4AC-1357-4628-BBFB-33E19EE43E48.mobileprovision
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Process product packaging193"ProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/685BC4AC-1357-4628-BBFB-33E19EE43E48.mobileprovision build/Debug-iphoneos/Crowded.app/embedded.mobileprovisionf660929aca4eb941^6aa63f9bca4eb941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/alexyeh/Library/MobileDevice/Provisioning%20Profiles/685BC4AC-1357-4628-BBFB-33E19EE43E48.mobileprovision0000000000000000^711"ProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/685BC4AC-1357-4628-BBFB-33E19EE43E48.mobileprovision build/Debug-iphoneos/Crowded.app/embedded.mobileprovision    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/685BC4AC-1357-4628-BBFB-33E19EE43E48.mobileprovision -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision36"28A54340-6EFB-4B3C-9BF1-3CA830E42B6C-
+b945BC94F-1E86-4DEE-98DF-33BCF244F98A
+
+CProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/B812AEA8-FF79-44BB-B48F-2B645E158AD6.mobileprovision /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/F3B94CF2-C44E-478F-95A4-D4D798CA19A9.mobileprovision /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision
+s424735693.457508
+e424735694.010141
+r1
+xProcessProductPackaging
+x/Users/alexyeh/Library/MobileDevice/Provisioning Profiles/F3B94CF2-C44E-478F-95A4-D4D798CA19A9.mobileprovision
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection193"ProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/F3B94CF2-C44E-478F-95A4-D4D798CA19A9.mobileprovision build/Debug-iphoneos/Crowded.app/embedded.mobileprovision193"ProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/F3B94CF2-C44E-478F-95A4-D4D798CA19A9.mobileprovision build/Debug-iphoneos/Crowded.app/embedded.mobileprovision624975cdf350b941^fa9902cef350b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision0000000000000000^701"ProcessProductPackaging /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/F3B94CF2-C44E-478F-95A4-D4D798CA19A9.mobileprovision build/Debug-iphoneos/Crowded.app/embedded.mobileprovision    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/alexyeh/Library/MobileDevice/Provisioning\ Profiles/F3B94CF2-C44E-478F-95A4-D4D798CA19A9.mobileprovision -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app/embedded.mobileprovision36"11FD75F5-5CBB-4490-B026-58347DFFC030-
+b5FE12017-383C-4BC7-B29C-EDB3030B182B
+
+CProcessProductPackaging /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.xcent
+s424735820.948628
+e424735821.026242
+r1
+xProcessProductPackaging
+x/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection208"ProcessProductPackaging /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.xcent208"ProcessProductPackaging /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.xcent9e07f34cf450b941^6021134df450b941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.xcent0000000000000000^757"ProcessProductPackaging /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.xcent    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Xcode/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Crowded.build/Debug-iphoneos/Crowded.build/Crowded.xcent36"97C12DAF-172C-431B-89F5-93239369A699-
+b2ABB99FA-0C4E-4E07-8F97-030773F5F65D
+
+CTouch /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app
+s424610029.760793
+e424610029.810484
+r1
+xTouch
+x/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Touch /Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded/build/Debug-iphoneos/Crowded.app38"Touch build/Debug-iphoneos/Crowded.app8411c3ed084fb941^787ccfed084fb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/alexyeh/Dropbox/Alex's%20Cool%20Apps/Crowded/build/Debug-iphoneos/Crowded.app/0000000000000000^402"Touch build/Debug-iphoneos/Crowded.app    cd "/Users/alexyeh/Dropbox/Alex's Cool Apps/Crowded"    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/alexyeh/Dropbox/Alex\'s\ Cool\ Apps/Crowded/build/Debug-iphoneos/Crowded.app36"8890E9E8-8E5E-4E3E-9CCE-2E9E7730AAD3-
+b7392415C-AE04-400F-A050-8A11801ACD2F
+
